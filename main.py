@@ -13,10 +13,11 @@ def main():
 	for i in range(dices):
 		result = result + random.randint(1, 6)
 	Fresult[str(result)] = Fresult[str(result)] + 1
-
 threading.Thread(target=main)
 for i in range(launch): threading.Thread(target=main).start()
-left = height = tick_label = []
+left = []
+height = []
+tick_label = []
 for i in range(a): left.append(i + dices)
 for i in range(a): height.append(Fresult[str(i + dices)])
 for i in range(a): tick_label.append(str(i + dices))
