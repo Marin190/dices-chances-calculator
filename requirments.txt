@@ -1,5 +1,4 @@
 random
-time
 sys
 threading
 matplotlib
