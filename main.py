@@ -1,4 +1,4 @@
-import random, time, sys, threading
+import random, sys, threading
 import matplotlib.pyplot as plt
 
 try: launch = int(input("How many roll > "))
